@@ -1,13 +1,10 @@
 import matplotlib.pyplot as plt
 
-x = [12, 4, 5]
-y = [8, 11, 9]
+x = [12, 4, 5, 8, 5, 6]
+y = [8, 11, 9, 7, 3, 4]
 
-y2 = [12, 4, 5]
-x2 = [8, 11, 9]
 
-plt.plot(x, y, label="first")
-plt.plot(x2, y2, label="second")
+plt.bar(x, y, label="first")
 
 plt.xlabel("Burgers")
 plt.ylabel("Dogs")
